@@ -36,7 +36,7 @@ The main objective was to determine whether self-medicating behaviour (i.e. a co
 Data Description
 ================
 
-Data were collected in two stages. First, by paying \$10 to incoming college students from a Northwestern campus in America to complete an Internet survey. There was a 51.1% response rate of the 4103 students invited to participate. Second, a total of 780 students were retained from this sample (Males, n = 333; Females, n = 447; Mean age =18.18, SD = 0.42) who met the entry criteria of being over 18 and having at least one heavy drinking episode in the past month (i.e. Females, 4\<drinks; Males, 5\<drinks). These second round participants were paid \$25 to complete a 50-minute online assessment for the study.
+Data were collected in two stages. First, by paying `$10` to incoming college students from a Northwestern campus in America to complete an Internet survey. There was a 51.1% response rate of the 4103 students invited to participate. Second, a total of 780 students were retained from this sample (Males, *n*=333; Females, *n*=447; Mean age=18.18, *SD*=0.42) who met the entry criteria of being over 18 and having at least one heavy drinking episode in the past month (i.e. Females, 4`<`drinks; Males, 5`<`drinks). These second round participants were paid `$25` to complete a 50-minute online assessment for the study.
 
 **Measurements:**
 

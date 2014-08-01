@@ -23,7 +23,7 @@ Table 1. *Eigenvalues and percent variance explained (N=371)*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM1.png)
 
-The table above shows three factors with Eigenvalues `>` 1, indicating that the factor analysis should start with a three factor solution. Further to this analysis a scree plot was produced (Figure 1).
+The table above shows three factors with Eigenvalues \> 1, indicating that the factor analysis should start with a three factor solution. Further to this analysis a scree plot was produced (Figure 1).
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM2.png)
 
@@ -31,7 +31,7 @@ The table above shows three factors with Eigenvalues `>` 1, indicating that the 
 
 The Figure 1 scree plot represents the Eigenvalues of Table 1 in graphical form. It supported the prior analysis and indicates a three factor extraction. Exploratory factor analysis was carried out on the test score using Maximum Likelihood Estimation (MLE) and Direct Oblimin rotation. The rotated solution loadings are shown below.
 
-Table 2. *Pattern matrix: Exploratory Factor Analysis (`<`0.2 suppressed)*
+Table 2. *Pattern matrix: Exploratory Factor Analysis (\<0.2 suppressed)*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM3.png)
 
@@ -40,7 +40,7 @@ In initial extraction and rotation only two items, 'creative' and 'love', loaded
 Part b. Improving the Factor Solution
 -------------------------------------
 
-To improve the solution changes were made iteratively and each model was added to Table 3 below. Model 1 is the starting model from above. For Model 2, communalities were examined and items loading below 0.3 (i.e. had little in common with the factors) were removed ('curious'=0.267; 'honest'=0.288). Remaining items had sufficient communalities to remain in the analysis (*R*<sup>2</sup>`>`0.3). This decreased the Chi-square and Root Mean Square Error of Approximation (RMSEA), which indicated an improved model.
+To improve the solution changes were made iteratively and each model was added to Table 3 below. Model 1 is the starting model from above. For Model 2, communalities were examined and items loading below 0.3 (i.e. had little in common with the factors) were removed ('curious'=0.267; 'honest'=0.288). Remaining items had sufficient communalities to remain in the analysis (*R*<sup>2</sup>\>0.3). This decreased the Chi-square and Root Mean Square Error of Approximation (RMSEA), which indicated an improved model.
 
 Model 2 was used to assess extraction methods. This included Minimum Residual, Weighted Least Squares, Generalized Weighted Least Squares, Principal Factor Solution (PA) and MLE. Results for each method were indistinguishable so the results of the PA were tabled for comparison as Model 3 and MLE was retained as the extraction method.
 
@@ -58,7 +58,7 @@ Table 3. *Factor Models (EM=Extraction Method; F=Factor Number; Sim=Simple Loadi
 
 The above table shows all relevant statistics and methods trialled in producing the final factor model. Below is the pattern matrix of the final model.
 
-Table 4. *Pattern matrix: Exploratory Factor Analysis (`<`0.2 suppressed)*
+Table 4. *Pattern matrix: Exploratory Factor Analysis (\<0.2 suppressed)*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM5.png)
 
@@ -79,7 +79,7 @@ The above solution was entered into AMOS (Figure 2) as the initial model. In ord
 
 *Figure 2.* Initial Model
 
-The analysis was run and the Chi-square for the model was significant *X*<sup>2</sup>(32, *N*=371)=99.289, *p*`<`.000, which meant that the model fit could be improved. Statistics for each model were recorded in Table 6 and identified problems were recorded in Table 7.
+The analysis was run and the Chi-square for the model was significant *X*<sup>2</sup>(32, *N*=371)=99.289, *p*\<.000, which meant that the model fit could be improved. Statistics for each model were recorded in Table 6 and identified problems were recorded in Table 7.
 
 Firstly, outliers can compromise the model fit, so the top three outliers as identified by Mahalanobis *d*-squared were removed (cases 303, 262, 10). This improved model fit.
 
@@ -120,11 +120,11 @@ For two factors to have discriminant validity means that the indicators of those
 
 Using Bagozzi's method, the model was run unconstrained and output *X*<sup>2</sup>(17, *N*=368)=25.511, *p*=.084, as above. The paths between factors were constrained to '1' for each factor correlation over three models, and opened to previously determined loadings in an Unconstrained model for the purposes of comparison. Results were tabled below.
 
-Table 7. *Constrained model tests for discriminant validity*
+Table 8. *Constrained model tests for discriminant validity*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM11.png)
 
-For the smallest Chi-square the difference is still *X*<sup>2</sup>=74.839 points. This supports to the *p*`>`.001 (df=2) level that constraining the correlation between each factor significantly worsened the model. From this is can be concluded that discriminant validity was upheld for all three factors.
+For the smallest Chi-square the difference is still *X*<sup>2</sup>=74.839 points. This supports to the *p*\>.001 (df=2) level that constraining the correlation between each factor significantly worsened the model. From this is can be concluded that discriminant validity was upheld for all three factors.
 
 Part e. Adding Theory to Factors
 --------------------------------
@@ -153,11 +153,11 @@ Part g. Summated Scales
 
 The variables 'goodhealth' and 'Future' had missing values (NAs). For 'Future', the number of NAs represented almost one third of the dataset (NAs=106). How this was managed may influence the analysis so two separate correlation tables were produced. The first table included only complete cases with case/row-wise deletion of non-complete cases. The second table included all cases with missing values replaced by mean values.
 
-Table 8. *Summated Scale Correlations (Casewise NA deletion, N=259),*\*\*\**p`<`.001,*\*\**p`<`.01,*\**p`<`.05.*
+Table 9. *Summated Scale Correlations (Casewise NA deletion, N=259),* \*\*\* *p\<.001,* \*\* *p\<.01,* \* *p\<.05.*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM13.png)
 
-Table 9. *Summated Scale Correlations (Mean NA replacement, N=368),*\*\*\**p`<`.001,*\*\**p`<`.01,*\**p`<`.05.*
+Table 10. *Summated Scale Correlations (Mean NA replacement, N=368),* \*\*\* *p\<.001,* \*\* *p\<.01,* \* *p\<.05.*
 
 ![](https://raw.githubusercontent.com/MartinCoomes/StructuralEquationM/master/figures/FactorAnalysisToSEM14.png)
 
@@ -168,7 +168,7 @@ The strongest relationships were between the factors. This reflected the strengt
 Part h. Testing Scales for Sex Differences
 ------------------------------------------
 
-All three summated scales had significant scores, at the *p*`>`.001 level, on the Shapiro-Wilk test of normality and the Lilliefors-Kolmogorov-Smirnov test for normality. Since normality was not assumed, three Independent 2-group Mann-Whitney U Tests (i.e. non-parametric) were carried out. After the *p*-value bonferroni correction for three tests there was no significant difference between males and females for factor 'Environmental Concern', *W*(366)= 13112.5, *p*=0.079. There was a significant differences for factor 'Religious Observance', *W*(366)= 12164, *p*=0.004, on which females scored higher (Females, *M*=6.65, *SD*=1.98; Males, *M*=5.95, *SD*=1.80). There was a significant difference for factor 'Peaceful Universe', *W*(366)= 12591, *p*=0.016, on which females also scored higher (Females, *M*=13.01, *SD*=1.95; Males, *M*=12.3, *SD*=2.30).
+All three summated scales had significant scores, at the *p*\>.001 level, on the Shapiro-Wilk test of normality and the Lilliefors-Kolmogorov-Smirnov test for normality. Since normality was not assumed, three Independent 2-group Mann-Whitney U Tests (i.e. non-parametric) were carried out. After the *p*-value bonferroni correction for three tests there was no significant difference between males and females for factor 'Environmental Concern', *W*(366)= 13112.5, *p*=0.079. There was a significant differences for factor 'Religious Observance', *W*(366)= 12164, *p*=0.004, on which females scored higher (Females, *M*=6.65, *SD*=1.98; Males, *M*=5.95, *SD*=1.80). There was a significant difference for factor 'Peaceful Universe', *W*(366)= 12591, *p*=0.016, on which females also scored higher (Females, *M*=13.01, *SD*=1.95; Males, *M*=12.3, *SD*=2.30).
 
 This would support a research theory that females hold observable religious activity and 'Peaceful Universe' value as guiding principles in their lives to a greater extent than males do. Note however the mean differences were small, that the significance may be a product of the large sample and small standard deviations, and that significance alone does not determine whether differences are meaningful.
 
